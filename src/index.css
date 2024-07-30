@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer container {
+  .container-class {
+    @apply flex flex-col items-center  max-w-screen-2xl w-10/12 ml-auto mr-auto select-none;
+  }
+}
